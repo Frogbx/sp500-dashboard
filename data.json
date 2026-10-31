@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-10-31T02:29:14.347977+00:00",
+  "latest_bar": "2026-10-30",
+  "fresh_count": 500,
+  "reference_count": 503,
+  "failures": {
+    "FDXF": "insufficient or invalid price history",
+    "HONA": "insufficient or invalid price history",
+    "VYLR": "insufficient or invalid price history"
+  },
+  "daily_distribution": {
+    "covered_count": 500,
+    "plus_2_to_4": 53,
+    "plus_4_to_10": 12,
+    "above_10": 3
+  },
+  "watch_top": [
+    {
+      "ticker": "PYPL",
+      "company": "PayPal",
+      "close": 57.01,
+      "trigger": 58.066,
+      "stop": 56.069,
+      "target": 61.394,
+      "rr_gross": 1.67,
+      "rvol": 1.38,
+      "rs20": 0.0978,
+      "score": 84.53,
+      "status": "WATCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "AMGN",
+      "company": "Amgen",
+      "close": 466.01,
+      "trigger": 469.207,
+      "stop": 451.395,
+      "target": 498.892,
+      "rr_gross": 1.67,
+      "rvol": 1.25,
+      "rs20": 0.1743,
+      "score": 84.52,
+      "status": "WATCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "EL",
+      "company": "Estée Lauder Companies (The)",
+      "close": 109.23,
+      "trigger": 111.553,
+      "stop": 106.169,
+      "target": 120.526,
+      "rr_gross": 1.67,
+      "rvol": 3.07,
+      "rs20": 0.2058,
+      "score": 83.95,
+      "status": "WATCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "OXY",
+      "company": "Occidental Petroleum",
+      "close": 64,
+      "trigger": 65.09,
+      "stop": 62.841,
+      "target": 68.838,
+      "rr_gross": 1.67,
+      "rvol": 1.09,
+      "rs20": 0.12,
+      "score": 79.99,
+      "status": "WATCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "EBAY",
+      "company": "eBay Inc.",
+      "close": 121.64,
+      "trigger": 124.839,
+      "stop": 119.43,
+      "target": 133.855,
+      "rr_gross": 1.67,
+      "rvol": 1.43,
+      "rs20": 0.1613,
+      "score": 76.13,
+      "status": "WATCH_NOT_APPROVED"
+    }
+  ],
+  "in_confirmed": 0,
+  "approved_forecasts": 0,
+  "source": "Frogbx/sp_500/data/latest.json + data/opportunities.json",
+  "published_at": "2026-10-31T11:20:00Z"
+}
