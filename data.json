@@ -1,27 +1,45 @@
 {
-  "created_at": "2026-11-05T03:33:23.664010+00:00",
-  "latest_bar": "2026-11-04",
+  "created_at": "2026-11-06T03:30:04.643654+00:00",
+  "latest_bar": "2026-11-05",
   "fresh_count": 503,
   "reference_count": 503,
   "failures": {},
   "daily_distribution": {
     "covered_count": 503,
-    "plus_2_to_4": 137,
-    "plus_4_to_10": 145,
-    "above_10": 12
+    "plus_2_to_4": 12,
+    "plus_4_to_10": 6,
+    "above_10": 1
   },
   "watch_top": [
     {
+      "ticker": "WTW",
+      "company": "Willis Towers Watson",
+      "close": 336.51,
+      "trigger": 339.898,
+      "stop": 326.861,
+      "target": 361.627,
+      "rr_gross": 1.67,
+      "rvol": 1.13,
+      "rs20": 0.1826,
+      "score": 79.73,
+      "status": "WATCH_NOT_APPROVED",
+      "pending_checks": [
+        "intraday_price_volume",
+        "verified_event_calendar",
+        "independent_catalyst_review"
+      ]
+    },
+    {
       "ticker": "TECH",
       "company": "Bio-Techne",
-      "close": 72.73,
-      "trigger": 72.895,
-      "stop": 72.712,
-      "target": 73.201,
-      "rr_gross": 1.67,
-      "rvol": 1.49,
-      "rs20": 0.0162,
-      "score": 66.9,
+      "close": 72.66,
+      "trigger": 72.976,
+      "stop": 72.792,
+      "target": 73.281,
+      "rr_gross": 1.66,
+      "rvol": 1.57,
+      "rs20": 0.0558,
+      "score": 78.02,
       "status": "WATCH_NOT_APPROVED",
       "pending_checks": [
         "intraday_price_volume",
@@ -30,17 +48,17 @@
       ]
     }
   ],
-  "pool_checked": 65,
-  "rejected_count": 64,
+  "pool_checked": 84,
+  "rejected_count": 82,
   "rejection_summary": {
-    "insufficient volatility compression": 60,
-    "trigger below close": 8,
-    "low relative volume": 14,
-    "paper invalidation": 1,
-    "already moved >=5% in previous 5 sessions": 11
+    "insufficient volatility compression": 80,
+    "trigger below close": 5,
+    "already moved >=5% in previous 5 sessions": 22,
+    "low relative volume": 11,
+    "paper invalidation": 1
   },
   "in_confirmed": 0,
   "approved_forecasts": 0,
   "source": "Frogbx/sp_500/data/latest.json + data/opportunities.json",
-  "published_at": "2026-11-05T13:08:23.356370+00:00"
+  "published_at": "2026-11-06T03:30:23.043673+00:00"
 }
