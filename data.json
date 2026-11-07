@@ -19,6 +19,7 @@
     "low relative volume": 24,
     "already moved >=5% in previous 5 sessions": 8
   },
+  "research_top": [],
   "screening_audit": {
     "snapshot_count": 1,
     "minimum_sample_for_decision": 30,
@@ -32,5 +33,5 @@
   "in_confirmed": 0,
   "approved_forecasts": 0,
   "source": "Frogbx/sp_500/data/latest.json + data/opportunities.json",
-  "published_at": "2026-11-07T02:53:47.670559+00:00"
+  "published_at": "2026-11-07T11:41:30.759786+00:00"
 }
