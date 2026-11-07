@@ -1,64 +1,36 @@
 {
-  "created_at": "2026-11-06T03:30:04.643654+00:00",
-  "latest_bar": "2026-11-05",
+  "created_at": "2026-11-07T02:53:29.496561+00:00",
+  "latest_bar": "2026-11-06",
   "fresh_count": 503,
   "reference_count": 503,
   "failures": {},
   "daily_distribution": {
     "covered_count": 503,
-    "plus_2_to_4": 12,
-    "plus_4_to_10": 6,
-    "above_10": 1
+    "plus_2_to_4": 41,
+    "plus_4_to_10": 34,
+    "above_10": 4
   },
-  "watch_top": [
-    {
-      "ticker": "WTW",
-      "company": "Willis Towers Watson",
-      "close": 336.51,
-      "trigger": 339.898,
-      "stop": 326.861,
-      "target": 361.627,
-      "rr_gross": 1.67,
-      "rvol": 1.13,
-      "rs20": 0.1826,
-      "score": 79.73,
-      "status": "WATCH_NOT_APPROVED",
-      "pending_checks": [
-        "intraday_price_volume",
-        "verified_event_calendar",
-        "independent_catalyst_review"
-      ]
-    },
-    {
-      "ticker": "TECH",
-      "company": "Bio-Techne",
-      "close": 72.66,
-      "trigger": 72.976,
-      "stop": 72.792,
-      "target": 73.281,
-      "rr_gross": 1.66,
-      "rvol": 1.57,
-      "rs20": 0.0558,
-      "score": 78.02,
-      "status": "WATCH_NOT_APPROVED",
-      "pending_checks": [
-        "intraday_price_volume",
-        "verified_event_calendar",
-        "independent_catalyst_review"
-      ]
-    }
-  ],
-  "pool_checked": 84,
-  "rejected_count": 82,
+  "watch_top": [],
+  "pool_checked": 42,
+  "rejected_count": 42,
   "rejection_summary": {
-    "insufficient volatility compression": 80,
-    "trigger below close": 5,
-    "already moved >=5% in previous 5 sessions": 22,
-    "low relative volume": 11,
-    "paper invalidation": 1
+    "insufficient volatility compression": 41,
+    "paper invalidation": 1,
+    "low relative volume": 24,
+    "already moved >=5% in previous 5 sessions": 8
+  },
+  "screening_audit": {
+    "snapshot_count": 1,
+    "minimum_sample_for_decision": 30,
+    "results": [],
+    "limits": [
+      "Descriptive association, not causal evidence or a backtest of executable entries.",
+      "No threshold is relaxed automatically; samples below 30 are explicitly underpowered.",
+      "Adjusted Yahoo daily closes and stored constituent coverage remain data limitations."
+    ]
   },
   "in_confirmed": 0,
   "approved_forecasts": 0,
   "source": "Frogbx/sp_500/data/latest.json + data/opportunities.json",
-  "published_at": "2026-11-06T12:54:09.593161+00:00"
+  "published_at": "2026-11-07T02:53:47.670559+00:00"
 }
