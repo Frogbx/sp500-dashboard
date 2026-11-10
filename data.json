@@ -1,29 +1,184 @@
 {
-  "created_at": "2026-11-07T02:53:29.496561+00:00",
-  "latest_bar": "2026-11-06",
+  "created_at": "2026-11-10T04:41:11.310282+00:00",
+  "latest_bar": "2026-11-09",
   "fresh_count": 503,
   "reference_count": 503,
   "failures": {},
   "daily_distribution": {
     "covered_count": 503,
-    "plus_2_to_4": 41,
-    "plus_4_to_10": 34,
-    "above_10": 4
+    "plus_2_to_4": 148,
+    "plus_4_to_10": 95,
+    "above_10": 13
   },
   "watch_top": [],
-  "pool_checked": 42,
-  "rejected_count": 42,
+  "pool_checked": 74,
+  "rejected_count": 74,
   "rejection_summary": {
-    "insufficient volatility compression": 41,
-    "paper invalidation": 1,
-    "low relative volume": 24,
-    "already moved >=5% in previous 5 sessions": 8
+    "insufficient volatility compression": 72,
+    "trigger below close": 2,
+    "already moved >=5% in previous 5 sessions": 21,
+    "low relative volume": 42,
+    "paper invalidation": 1
   },
-  "research_top": [],
+  "research_top": [
+    {
+      "ticker": "AIZ",
+      "company": "Assurant",
+      "close": 317.21,
+      "trigger": 317.353,
+      "stop": 306.418,
+      "target": 335.578,
+      "score": 77.8,
+      "rvol": 1.31,
+      "compression": 0.7,
+      "reasons": [
+        "insufficient volatility compression"
+      ],
+      "status": "RESEARCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "BR",
+      "company": "Broadridge Financial Solutions",
+      "close": 192.34,
+      "trigger": 195.641,
+      "stop": 187.725,
+      "target": 208.833,
+      "score": 77.11,
+      "rvol": 1.69,
+      "compression": 0.96,
+      "reasons": [
+        "insufficient volatility compression"
+      ],
+      "status": "RESEARCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "PYPL",
+      "company": "PayPal",
+      "close": 60.05,
+      "trigger": 60.992,
+      "stop": 58.5,
+      "target": 65.144,
+      "score": 74.55,
+      "rvol": 1.01,
+      "compression": 1.1,
+      "reasons": [
+        "insufficient volatility compression"
+      ],
+      "status": "RESEARCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "HAS",
+      "company": "Hasbro",
+      "close": 120.92,
+      "trigger": 124.248,
+      "stop": 119.249,
+      "target": 132.58,
+      "score": 74.02,
+      "rvol": 0.74,
+      "compression": 1.7,
+      "reasons": [
+        "low relative volume"
+      ],
+      "status": "RESEARCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "LH",
+      "company": "Labcorp",
+      "close": 371.83,
+      "trigger": 374.087,
+      "stop": 355.142,
+      "target": 405.662,
+      "score": 71.42,
+      "rvol": 1.04,
+      "compression": 0.45,
+      "reasons": [
+        "insufficient volatility compression"
+      ],
+      "status": "RESEARCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "PSA",
+      "company": "Public Storage",
+      "close": 338.15,
+      "trigger": 346.582,
+      "stop": 334.452,
+      "target": 366.798,
+      "score": 71.01,
+      "rvol": 1.53,
+      "compression": 0.88,
+      "reasons": [
+        "insufficient volatility compression"
+      ],
+      "status": "RESEARCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "ULTA",
+      "company": "Ulta Beauty",
+      "close": 665.13,
+      "trigger": 675.388,
+      "stop": 644.692,
+      "target": 726.549,
+      "score": 70.68,
+      "rvol": 1.06,
+      "compression": 0.75,
+      "reasons": [
+        "insufficient volatility compression"
+      ],
+      "status": "RESEARCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "TECH",
+      "company": "Bio-Techne",
+      "close": 72.83,
+      "trigger": 72.976,
+      "stop": 72.786,
+      "target": 73.292,
+      "score": 69.98,
+      "rvol": 0.94,
+      "compression": 1.32,
+      "reasons": [
+        "low relative volume"
+      ],
+      "status": "RESEARCH_NOT_APPROVED"
+    }
+  ],
   "screening_audit": {
-    "snapshot_count": 1,
+    "snapshot_count": 2,
     "minimum_sample_for_decision": 30,
-    "results": [],
+    "results": [
+      {
+        "cohort": "all",
+        "horizon": 1,
+        "n": 42,
+        "mean_return_pct": 1.2977,
+        "median_return_pct": 0.987,
+        "positive_rate_pct": 78.57
+      },
+      {
+        "cohort": "already moved >=5% in previous 5 sessions",
+        "horizon": 1,
+        "n": 8,
+        "mean_return_pct": 2.2436,
+        "median_return_pct": 2.0283,
+        "positive_rate_pct": 75.0
+      },
+      {
+        "cohort": "insufficient volatility compression",
+        "horizon": 1,
+        "n": 41,
+        "mean_return_pct": 1.296,
+        "median_return_pct": 0.9551,
+        "positive_rate_pct": 78.05
+      },
+      {
+        "cohort": "low relative volume",
+        "horizon": 1,
+        "n": 24,
+        "mean_return_pct": 1.2961,
+        "median_return_pct": 0.8917,
+        "positive_rate_pct": 79.17
+      }
+    ],
     "limits": [
       "Descriptive association, not causal evidence or a backtest of executable entries.",
       "No threshold is relaxed automatically; samples below 30 are explicitly underpowered.",
@@ -33,5 +188,5 @@
   "in_confirmed": 0,
   "approved_forecasts": 0,
   "source": "Frogbx/sp_500/data/latest.json + data/opportunities.json",
-  "published_at": "2026-11-09T13:50:17.976941+00:00"
+  "published_at": "2026-11-10T04:41:30.045074+00:00"
 }
