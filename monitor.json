@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-11-12T20:25:00.941831+00:00",
-  "watch_total": 0,
-  "watch_bars_verified": 0,
+  "time_utc": "2026-11-13T20:40:32.584336+00:00",
+  "watch_total": 1,
+  "watch_bars_verified": 1,
   "user_positions_count": 0,
   "breakout_count": 0,
   "event_blocked_count": 0,
@@ -9,5 +9,5 @@
   "alert_count": 0,
   "errors_count": 0,
   "result": "ok",
-  "published_at": "2026-11-12T20:25:01.077111+00:00"
+  "published_at": "2026-11-13T20:40:33.945102+00:00"
 }
