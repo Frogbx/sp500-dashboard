@@ -1,36 +1,69 @@
 {
-  "created_at": "2026-11-12T03:52:12.447483+00:00",
-  "latest_bar": "2026-11-11",
+  "created_at": "2026-11-13T03:27:47.009279+00:00",
+  "latest_bar": "2026-11-12",
   "fresh_count": 503,
   "reference_count": 503,
   "failures": {},
   "daily_distribution": {
     "covered_count": 503,
-    "plus_2_to_4": 65,
-    "plus_4_to_10": 33,
-    "above_10": 5
+    "plus_2_to_4": 8,
+    "plus_4_to_10": 3,
+    "above_10": 0
   },
-  "watch_top": [],
-  "pool_checked": 109,
-  "rejected_count": 109,
+  "watch_top": [
+    {
+      "ticker": "AMGN",
+      "company": "Amgen",
+      "close": 467.06,
+      "trigger": 484.958,
+      "stop": 465.628,
+      "target": 517.174,
+      "rr_gross": 1.67,
+      "rvol": 1.01,
+      "rs20": 0.0951,
+      "score": 65.07,
+      "status": "WATCH_NOT_APPROVED",
+      "pending_checks": [
+        "intraday_price_volume",
+        "verified_event_calendar",
+        "independent_catalyst_review"
+      ]
+    }
+  ],
+  "pool_checked": 84,
+  "rejected_count": 83,
   "rejection_summary": {
-    "low relative volume": 104,
-    "insufficient volatility compression": 100,
-    "already moved >=5% in previous 5 sessions": 8,
-    "trigger below close": 3,
-    "paper invalidation": 1
+    "already moved >=5% in previous 5 sessions": 7,
+    "low relative volume": 76,
+    "insufficient volatility compression": 71,
+    "trigger below close": 1
   },
   "research_top": [
     {
-      "ticker": "HAS",
-      "company": "Hasbro",
-      "close": 124.02,
-      "trigger": 124.248,
-      "stop": 119.503,
-      "target": 132.157,
-      "score": 83.93,
-      "rvol": 0.57,
-      "compression": 1.58,
+      "ticker": "SWKS",
+      "company": "Skyworks Solutions",
+      "close": 90.03,
+      "trigger": 90.681,
+      "stop": 83.868,
+      "target": 102.036,
+      "score": 83.75,
+      "rvol": 1.11,
+      "compression": 1.44,
+      "reasons": [
+        "already moved >=5% in previous 5 sessions"
+      ],
+      "status": "RESEARCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "CME",
+      "company": "CME Group",
+      "close": 315.5,
+      "trigger": 316.903,
+      "stop": 305.878,
+      "target": 335.278,
+      "score": 82.7,
+      "rvol": 0.96,
+      "compression": 1.34,
       "reasons": [
         "low relative volume"
       ],
@@ -39,13 +72,73 @@
     {
       "ticker": "KO",
       "company": "Coca-Cola Company (The)",
-      "close": 97.57,
-      "trigger": 97.585,
-      "stop": 94.674,
-      "target": 102.437,
-      "score": 80.23,
-      "rvol": 0.8,
+      "close": 97.44,
+      "trigger": 98.026,
+      "stop": 95.297,
+      "target": 102.574,
+      "score": 79.49,
+      "rvol": 0.74,
       "compression": 1.32,
+      "reasons": [
+        "low relative volume"
+      ],
+      "status": "RESEARCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "JNJ",
+      "company": "Johnson & Johnson",
+      "close": 283.52,
+      "trigger": 283.817,
+      "stop": 272.892,
+      "target": 302.024,
+      "score": 79.42,
+      "rvol": 1.17,
+      "compression": 0.89,
+      "reasons": [
+        "insufficient volatility compression"
+      ],
+      "status": "RESEARCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "CBOE",
+      "company": "Cboe Global Markets",
+      "close": 368.89,
+      "trigger": 371.952,
+      "stop": 351.588,
+      "target": 405.893,
+      "score": 76.86,
+      "rvol": 1.04,
+      "compression": 0.97,
+      "reasons": [
+        "insufficient volatility compression"
+      ],
+      "status": "RESEARCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "VTR",
+      "company": "Ventas",
+      "close": 89.65,
+      "trigger": 90.801,
+      "stop": 87.024,
+      "target": 97.096,
+      "score": 76.59,
+      "rvol": 0.78,
+      "compression": 1.41,
+      "reasons": [
+        "low relative volume"
+      ],
+      "status": "RESEARCH_NOT_APPROVED"
+    },
+    {
+      "ticker": "ADP",
+      "company": "Automatic Data Processing",
+      "close": 307.92,
+      "trigger": 311.602,
+      "stop": 299.542,
+      "target": 331.702,
+      "score": 76.15,
+      "rvol": 0.76,
+      "compression": 1.23,
       "reasons": [
         "low relative volume"
       ],
@@ -54,88 +147,13 @@
     {
       "ticker": "EVRG",
       "company": "Evergy",
-      "close": 88.34,
+      "close": 88.27,
       "trigger": 89.839,
-      "stop": 87.48,
-      "target": 93.771,
-      "score": 74.64,
-      "rvol": 0.85,
-      "compression": 1.26,
-      "reasons": [
-        "low relative volume"
-      ],
-      "status": "RESEARCH_NOT_APPROVED"
-    },
-    {
-      "ticker": "NDAQ",
-      "company": "Nasdaq, Inc.",
-      "close": 109.68,
-      "trigger": 111.673,
-      "stop": 108.111,
-      "target": 117.609,
-      "score": 74.27,
-      "rvol": 1.05,
-      "compression": 1.16,
-      "reasons": [
-        "insufficient volatility compression"
-      ],
-      "status": "RESEARCH_NOT_APPROVED"
-    },
-    {
-      "ticker": "ADP",
-      "company": "Automatic Data Processing",
-      "close": 306.36,
-      "trigger": 311.602,
-      "stop": 299.222,
-      "target": 332.236,
-      "score": 72.71,
+      "stop": 87.478,
+      "target": 93.775,
+      "score": 74.04,
       "rvol": 0.65,
-      "compression": 1.23,
-      "reasons": [
-        "low relative volume"
-      ],
-      "status": "RESEARCH_NOT_APPROVED"
-    },
-    {
-      "ticker": "RSG",
-      "company": "Republic Services",
-      "close": 249.34,
-      "trigger": 254.899,
-      "stop": 246.237,
-      "target": 269.334,
-      "score": 70.7,
-      "rvol": 1.05,
-      "compression": 1.04,
-      "reasons": [
-        "insufficient volatility compression"
-      ],
-      "status": "RESEARCH_NOT_APPROVED"
-    },
-    {
-      "ticker": "TECH",
-      "company": "Bio-Techne",
-      "close": 72.8,
-      "trigger": 73.026,
-      "stop": 72.852,
-      "target": 73.315,
-      "score": 66.67,
-      "rvol": 0.9,
-      "compression": 1.62,
-      "reasons": [
-        "low relative volume"
-      ],
-      "status": "RESEARCH_NOT_APPROVED"
-    },
-    {
-      "ticker": "WTW",
-      "company": "Willis Towers Watson",
-      "close": 334.18,
-      "trigger": 345.6,
-      "stop": 332.25,
-      "target": 367.85,
-      "score": 63.56,
-      "rvol": 0.57,
-      "compression": 1.22,
+      "compression": 1.36,
       "reasons": [
         "low relative volume"
       ],
@@ -143,72 +161,72 @@
     }
   ],
   "screening_audit": {
-    "snapshot_count": 4,
+    "snapshot_count": 5,
     "minimum_sample_for_decision": 30,
     "results": [
       {
         "cohort": "all",
         "horizon": 1,
-        "n": 209,
-        "mean_return_pct": 0.4333,
-        "median_return_pct": 0.2551,
-        "positive_rate_pct": 61.72
+        "n": 318,
+        "mean_return_pct": -0.0013,
+        "median_return_pct": -0.0575,
+        "positive_rate_pct": 48.11
       },
       {
         "cohort": "all",
         "horizon": 3,
-        "n": 42,
-        "mean_return_pct": 1.6539,
-        "median_return_pct": 1.3296,
-        "positive_rate_pct": 85.71
+        "n": 116,
+        "mean_return_pct": 0.1624,
+        "median_return_pct": 0.2024,
+        "positive_rate_pct": 57.76
       },
       {
         "cohort": "already moved >=5% in previous 5 sessions",
         "horizon": 1,
-        "n": 51,
-        "mean_return_pct": 0.2128,
-        "median_return_pct": 0.045,
-        "positive_rate_pct": 52.94
+        "n": 59,
+        "mean_return_pct": 0.089,
+        "median_return_pct": 0.0379,
+        "positive_rate_pct": 50.85
       },
       {
         "cohort": "already moved >=5% in previous 5 sessions",
         "horizon": 3,
-        "n": 8,
-        "mean_return_pct": 0.4115,
-        "median_return_pct": 0.7125,
-        "positive_rate_pct": 62.5
+        "n": 29,
+        "mean_return_pct": -1.2034,
+        "median_return_pct": -1.676,
+        "positive_rate_pct": 37.93
       },
       {
         "cohort": "insufficient volatility compression",
         "horizon": 1,
-        "n": 200,
-        "mean_return_pct": 0.4177,
-        "median_return_pct": 0.2395,
-        "positive_rate_pct": 61.5
+        "n": 300,
+        "mean_return_pct": -0.0229,
+        "median_return_pct": -0.0676,
+        "positive_rate_pct": 47.67
       },
       {
         "cohort": "insufficient volatility compression",
         "horizon": 3,
-        "n": 41,
-        "mean_return_pct": 1.6843,
-        "median_return_pct": 1.3724,
-        "positive_rate_pct": 85.37
+        "n": 113,
+        "mean_return_pct": 0.159,
+        "median_return_pct": 0.1911,
+        "positive_rate_pct": 56.64
       },
       {
         "cohort": "low relative volume",
         "horizon": 1,
-        "n": 149,
-        "mean_return_pct": 0.4132,
-        "median_return_pct": 0.2405,
-        "positive_rate_pct": 63.09
+        "n": 253,
+        "mean_return_pct": -0.0994,
+        "median_return_pct": -0.0823,
+        "positive_rate_pct": 46.25
       },
       {
         "cohort": "low relative volume",
         "horizon": 3,
-        "n": 24,
-        "mean_return_pct": 1.5186,
-        "median_return_pct": 1.4036,
-        "positive_rate_pct": 83.33
+        "n": 66,
+        "mean_return_pct": 0.3009,
+        "median_return_pct": 0.1473,
+        "positive_rate_pct": 57.58
       },
       {
         "cohort": "passes_all_mechanical_filters",
@@ -221,9 +239,17 @@
       {
         "cohort": "trigger below close",
         "horizon": 1,
-        "n": 4,
-        "mean_return_pct": 0.02,
-        "median_return_pct": -0.1793,
+        "n": 7,
+        "mean_return_pct": 0.0248,
+        "median_return_pct": -0.0095,
+        "positive_rate_pct": 42.86
+      },
+      {
+        "cohort": "trigger below close",
+        "horizon": 3,
+        "n": 2,
+        "mean_return_pct": 0.3852,
+        "median_return_pct": 0.3852,
         "positive_rate_pct": 50.0
       }
     ],
@@ -236,5 +262,5 @@
   "in_confirmed": 0,
   "approved_forecasts": 0,
   "source": "Frogbx/sp_500/data/latest.json + data/opportunities.json",
-  "published_at": "2026-11-12T13:43:46.141824+00:00"
+  "published_at": "2026-11-13T03:28:06.242361+00:00"
 }
